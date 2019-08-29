@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "iconv-lite": "^0.5.0"
+  },
+  "scripts": {
+    "deploy": "node xKenAllToJSON && node kenJSONToList && node generateDocs"
+  }
+}
